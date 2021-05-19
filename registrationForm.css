@@ -1,0 +1,67 @@
+body{
+    background-image: url(Folder/Aero.png); 
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+   text-align: right;
+ }
+ nav ul{
+   display: inline-block;
+   list-style-type: none;
+ }
+ nav ul li{
+   display:inline-block;
+   margin-right: 20px;
+ }
+ ul li a{
+   color: white;
+ }
+ nav ul li:hover{
+   transform: scale(1.2);
+ }
+h1{
+   
+   text-align: center;
+   font-size: 50px;
+   font-weight: bold;
+   font-family: 'Times New Roman', Times, serif;
+}
+.container{
+   width: 500px;
+   margin: 0 auto;
+}
+
+fieldset {
+
+color:black;
+border-color: black;
+margin-top: 30px;
+font-weight: bold;
+}
+legend {
+padding: 2px;
+border: black;
+color: black;
+}
+.btns{
+   padding: 15px;
+   align-items: center;
+   margin-left: 120px;
+   margin-right: 100px;
+}
+.footer{
+   background: #000;
+   color: #8a8a8a;
+   font-size: 16px;
+   padding: 10px;
+   min-width: 250px;
+ }
+ .footer p{
+   color: #8a8a8a;
+ }
+ .footer h3{
+   color: #fff;
+   margin: 20px;
+ }
