@@ -1,0 +1,109 @@
+*{
+    font-family: 'Latos',sans-serif;
+  }
+  body{
+    background-image: linear-gradient(to right, #12c2e9, #FF8C00,  #12c2e9);
+  }
+  nav{
+      text-align: right;
+    }
+    nav ul{
+      display: inline-block;
+      list-style-type: none;
+    }
+    nav ul li{
+      display:inline-block;
+      margin-right: 20px;
+    }
+    ul li a{
+      color: white;
+    }
+    nav ul li:hover{
+      transform: scale(1.2);
+    }
+  
+  .container{
+    position: relative;
+    margin-top: 100px;
+    width: 500px;
+    height: auto;
+    background: white;
+    border-radius: 20px;
+    margin-left: 400px;
+  }
+  .label{
+    text-align: center;
+    color: #505050;
+    font-weight: bolder;
+    font-size: 35px;
+  }
+  .login_form{
+    padding: 20px 40px;
+    border-radius:0px;
+    padding-bottom: 100px;
+  }
+  .login_form .font{
+    font-size: 18px;
+    color: #130f40;
+    margin: 5px 0;
+  }
+  .login_form input{
+    height: 40px;
+    width: 350px;
+    padding: 0 5px;
+    font-size: 18px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid silver;
+  }
+  .login_form .font2{
+    margin-top: 30px;
+  }
+ 
+  .login_form #email_error,
+  .login_form #pass_error{
+    margin-top: 5px;
+    width: 345px;
+    font-size: 18px;
+    color: #C62828;
+    background: rgba(255,0,0,0.1);
+    text-align: center;
+    padding: 5px 8px;
+    border-radius: 3px;
+    border: 1px solid #EF9A9A;
+    display: none;
+  }
+  .logo img{
+      width: 300px;
+      padding-left: 120px;
+      padding-top: 15px;
+    } 
+  
+    .signup{
+      text-align:center;
+    }
+  
+    .options{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding: 5px 0px;
+      margin-bottom: 30px;
+    }
+    
+    .login_form button:hover{
+      transform: translateY(-10px); 
+      background-color: #FFA500;  
+    }
+    .login_form button{
+      width: 100%;
+      padding: 12px 10px;
+      border: transition;
+      font-size: 18px;
+      border-radius:20px;
+      background-color: #59c9fc;
+      color: #fff;
+      margin-bottom: 5px;
+      transition: transform 0.5s;
+      cursor: pointer;
+    }
