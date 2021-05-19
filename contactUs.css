@@ -1,0 +1,122 @@
+.container{
+    width: 450px;
+    
+    margin: 0 auto;
+    font-size: larger;
+    font-weight: bold;
+    border-color: black;
+    margin-bottom: 50px;
+}
+body {
+  background-image: url("Folder/dave-hoefler-F-lX4PJoY8k-unsplash.jpg");
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+ }
+
+fieldset {
+  padding: 0 15px 15px;
+  border: 1px solid #666;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgb(235, 176, 14);
+  padding-top: 10px;
+  font-weight: bold;
+}
+.login_form #email_error,.login_form #pass_error{
+  margin-top: 5px;
+  width: 345px;
+  font-size: 18px;
+  color: #C62828;
+  background: greenyellow;
+  text-align: center;
+  padding: 5px 8px;
+  border-radius: 3px;
+  border: 1px solid #EF9A9A;
+  display: none;
+}
+
+legend{
+  font-weight: 100;
+  text-shadow: dimgray;
+}
+input[type=text], select {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=email], select {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 5px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+textarea {
+  width: 90%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+
+
+    .button:hover{
+      transform: translateY(-10px); 
+      background-color: rgb(223, 134, 19);  
+    }
+    .button{
+      width: 100%;
+      padding: 12px 10px;
+      border: transition;
+      font-size: 18px;
+      border-radius: 10px;
+      background-color:black;
+      color: #fff;
+      margin-bottom: 5px;
+      transition: transform 0.5s;
+      cursor: pointer;
+    }
+
+
+  nav{
+    text-align: right;
+  }
+  nav ul{
+    display: inline-block;
+    list-style-type: none;
+  }
+  nav ul li{
+    display:inline-block;
+    margin-right: 20px;
+  }
+  ul li a{
+    color: white;
+  }
+  nav ul li:hover{
+    transform: scale(1.2);
+  }
+  .footer{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 16px;
+    padding: 10px;
+    min-width: 250px;
+  }
+  .footer p{
+    color: #8a8a8a;
+  }
+  .footer h3{
+    color: #fff;
+    margin: 20px;
+  }
