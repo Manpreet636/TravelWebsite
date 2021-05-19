@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LOGIN FORM</title>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="LoginForm.css">
+
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="home.html">Home</a></li>
+            <li><a href="LoginForm.html">Login</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="Hotel.html">Hotels</a></li>
+            <li><a href="contactUs.html">Contact</a></li>
+            <li><a href="registrationForm.html">Registration</a></li>
+            <li><a href="game.html">Play with us</a></li>
+            <li><a href="about.html">About us</a></li>
+		</ul>
+	  </nav>
+	
+	  <div class="container">
+		
+		<div class="logo">
+			<img src="Folder/1.jpg" alt="">
+			<h1 class="label">Let's Travel</h1>
+	</div> 
+		<div class="login_form">
+		<form action="home.html" method="GET" name="form" target="_blank"  onsubmit="return validated()">
+			<div class="font">Email or Phone</div>
+			
+			<input autocomplete="off" type="text" name="email">
+			<div id="email_error">Please fill up your Email or Phone</div>
+			<div class="font font2">Password</div>
+			<input type="password" name="password">
+			<div id="pass_error">Please fill up your Password at least 6 words</div>
+
+			<div class="options">
+				
+	  </div>
+			<button type="submit">Login</button>
+			<div class="signup">
+				<a href="registrationForm.html">new user? Sign up</a></div>
+		</form>
+	</div>	
+	</div>
+
+	<script src="LoginForm.js"></script>
+
+
+		</body>
+</html>
